@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    background-color: #36103a;
+}
+/*Start NavBar*/
+
+ .navbar{
+     position: fixed;
+     top: 0;
+     left:0;
+     right:0;
+     z-index: 3;
+     width: 100%;
+     padding: 20px 40px;
+     box-shadow: 0 10px 15px 15px rgba(25,25,25,0.1);
+ }
+ .navbar .container .collapse .navbar-nav .nav-item a{
+color: white; 
+}
+.navbar .container .collapse .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar .container .collapse .navbar-nav .margin-left a{
+ margin-left: 20px;
+ font-weight: 600;
+ color: white;
+ background: #a077ff;
+ outline: none;
+ border: none;
+ border-radius: 35px;
+ padding: 15px 34px;
+}
+.navbar .container .collapse .navbar-nav .margin-left a{
+    background:linear-gradient(to left,#a077ff,#a077ff)no-repeat ;
+    background: -webkit-linear-gradient(top, #9770f3 0%, #e361f1 100%);
+    background: linear-gradient(to bottom, #926ceb 0%, #e05eee 100%);
+}
+.navbar .container .collapse .navbar-nav .nav-item a:hover{
+color: #ff0267a2;
+}
+/*End NavBar*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*Start HeaDer*/
+header{
+    margin-top: 150px;
+}
+header .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .row .play .playtext span{
+    color: #9F78FF;
+    font-weight: 400;
+    padding-bottom: 15px;
+    transition: all 1s ease; 
+}
+header .container .row .play .playtext h1{
+    color:#FFF;
+    font-size: 65px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    margin: 20px 0;
+    transition: all 1s ease;
+}
+header .container .row .play .playtext p{
+    color: #9F78FF;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+header .container .row .play .playtext a {
+    padding: 15px 35px;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-family:"Poppins",sans-serif ;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background:#a077fF;
+    transition: all 1s ease;
+}
+header .container .row .play .playtext a{
+    
+    background: -webkit-linear-gradient(top, #9770f3 0%, #e361f1 100%);
+    background: linear-gradient(to bottom, #926ceb 0%, #e05eee 100%);
+    background-color: #9770f3;
+    background-size: 0%;
+    border: none;
+    transition: all 0.2 ease;
+}
+header .container .row .play .playtext a:hover{
+    background-size: 100%;
+}
+
+/*End Header*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*Start Section*/
+.inp{
+    margin-top: 150px;
+    width: 100%;
+}
+.inp .container .row .go{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp .container .row .go .gohp h1{
+    color: #FFF;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.inp .container .row .go .gohp p{
+color: #9F78FF;
+font-weight: 500;
+}
+.inp .container .row .go .goins input { 
+padding: 15px 30px;
+outline: none;
+border: none;
+width: 400px;
+border-radius: 35px;
+margin-bottom: 25px;
+}
+.inp .container .row .go .goins .colo{
+    color: #ff7474;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.inp .container .row .go .goins .colo p{
+color: #FFF;
+font-weight: 200;
+font-size: 15px;
+margin-left: 4px;
+border-right: 1px solid #777 ;
+display: inline-block;
+margin-right: 5px;
+}
+
+/*End Section*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*StArt SEction2*/
+
+.iconp{
+    margin-top: 150px;
+}
+.iconp .container .row .head h1{
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.iconp .container .row {
+margin-bottom: 30px;
+    
+}
+.iconp .container .row .with .img-study img{
+    margin: 20px;
+
+}
+.iconp .container .row .with .cont a{
+    text-decoration: none;
+    color: #FFF;
+}
+.iconp .container .row .with .cont h2{
+font-size: 30px;
+}
+.iconp .container .row .with .cont p{
+    color:#9F78FF ;
+}
+
+/*End Section2*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*StArt SEction3*/
+.happy{
+    margin-bottom: 40px;
+}
+.happy .container .row .hid{
+    margin-bottom: 20px;
+
+    
+}
+.happy .container .row .hid h1{
+    color:#FFF;
+    font-size: 30px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.happy .container .row .par{
+    margin-bottom: 20px;
+
+}
+.happy .container .row .par p{
+    color: #9F78FF;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.happy .container .row .single-card{
+    background-color: #FFF;
+    border-radius: 10px;
+    height: 620px;
+    box-shadow: 0 10px 15px 15px rgba(25,25,25,0.1);
+}
+.happy .container .row .single-card .card-top img{
+    margin: 30px 0px;
+}
+.happy .container .row .single-card .card-top h4{
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+}
+.happy .container .row .single-card .card-top p{
+    color: #3B4855;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.happy .container .row .single-card .card-mid{
+    margin-bottom: 20px;
+}
+.happy .container .row .single-card .card-mid h4{
+    color: #4C1E51;
+    font-size: 32px;
+    font-weight: 600;
+}
+.happy .container .row .single-card .card-mid span{
+    color: #838a9b;
+    font-size: 12px;
+}
+.happy .container .row .single-card .card-bottom ul li{
+    color: #717081;
+    font-weight: 300;
+    margin-bottom: 23px;
+    font-size: 16px;
+}
+.happy .container .row .single-card .card-bottom li {
+    list-style: none;
+}
+.happy .container .row .single-card .card-bottom ul{
+    margin-bottom: 50px;
+}
+.happy .container .row .single-card .card-bottom a{
+    text-decoration: none;  
+}
+.happy .container .row .single-card .card-bottom .borders-btn{
+    border: 1px solid #F067FF;
+    border-radius: 25px;
+    padding: 15px 30px;
+    color: #F067FF;
+}
+/*End Section 3*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*StArt SEction 4*/
+.twenty{
+    margin: 40px 0px;
+    margin-bottom: 30px;
+}
+.twenty .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.twenty .container .row .play .playtext span{
+    color: #9F78FF;
+    font-weight: 400;
+    padding-bottom: 15px; 
+}
+.twenty .container .row .play .playtext h1{
+    color:#FFF;
+    font-size: 65px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.twenty .container .row .play .playtext p{
+    color: #9F78FF;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.twenty .container .row .play .list li {
+list-style: none;
+}
+.twenty .container .row .play .list li p{
+    color: #3B4855;
+    font-size: 18px;
+    font-weight: 500;
+}
+.twenty .container .row .play .playtext a{
+    text-decoration: none;
+    color: #FFF;
+    background: linear-gradient(to bottom, #a077ff 0%, #ef67ff 100%);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+/*End Section 4*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*StArt SEction 5*/
+.therty{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.therty .container .row .hidr{
+    margin-bottom: 20px;
+}
+.therty .container .row .hidr h1{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.therty .container .row .per{
+    margin-bottom:30px;
+}
+.therty .container .row .per p{
+    color:#9F78FF;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+}
+.therty .container .row .que{
+display: flex;
+
+}
+.therty .container .row .que span{
+    color: #FFF;
+    margin-right: 30px;
+    margin-top: 2px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.therty .container .row .que .php h1{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.therty .container .row .que .php p{
+    color: rgba(255,255,255,0.6);
+}
+.therty .container .row .link5{
+
+margin-top:100px ;
+}
+.therty .container .row .link5 a{
+    text-decoration: none;
+   
+}
+.therty .container .row .link5 .btn{
+    background: linear-gradient(to bottom, #a077ff 0%, #ef67ff 100%);
+    color:#FFF;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+}
+/*End Section 5*/
+/*------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*StArt Footer*/
+
+footer{
+    padding-top: 100px;
+}
+footer .footer-area .container .row .single-footer-caption .footer-logo {
+    margin-bottom: 20px;
+}
+footer .footer-area .container .row .single-footer-caption .footer-tittle{
+    color: #C2C5DB;
+    margin-bottom: 35px;
+
+}
+footer .footer-area .container .row .single-footer-caption .footer-form{
+    margin-bottom: 30px;
+}
+footer .footer-area .container .row .single-footer-caption .footer-form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #695CAE;
+    text-align: center;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+footer .footer-area .container .row .single-footer-caption .footer-form .form-icon button{
+    background: linear-gradient(to bottom, #a077ff 0%, #ef67ff 100%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #FFF;
+    cursor: pointer;
+}
+
+footer .footer-area .container .row .single-footer-caption .footer-tittle h4{
+    color: #FFF;
+    font-weight: 500px;
+    margin-bottom: 40px;
+}
+footer .footer-area .container .row .single-footer-caption .footer-tittle ul li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 18px;
+    
+}
+footer .footer-area .container .row .single-footer-caption .footer-tittle ul li a{
+    color: #C2C5DB
+}
+footer .footer-area .container .row .single-footer-caption .footer-tittle ul li a:hover {
+    color: #F067FF;
+    text-decoration: underline;
+}
+
+footer  .footer-bottom-area .container .footer-border .footer-copy-right  p{
+   color: #C2C5DB; 
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 2;
+}
+footer  .footer-bottom-area .container .footer-border .footer-copy-right  a{
+    color: #C2C5DB; 
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 2;
+}
+
+
+
+
+
